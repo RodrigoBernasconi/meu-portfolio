@@ -1,0 +1,337 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-black: #101010;
+    --color-white: #f0f0f0;
+    --color-gray: #5c5c5c;
+    --color-blue: #1d2adf;
+
+    --font-title-desktop: 3rem;
+    --font-span-desktop: 1.5rem;
+    --font-text-desktop: 1.2rem;
+
+    --font-title-mobile: 2rem;
+    --font-span-mobile: 1.2rem;
+    --font-text-mobile: 1rem;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1800px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--color-white);
+    padding: 1rem;
+}
+
+/* WIDGET 1 */
+.top {
+    width: 100%;
+    min-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* ÚSUARIO */
+.user {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+}
+
+.content_user {
+    width: 100%;
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.img_user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_user img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.info_user {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.info_user h1 {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.info_user span {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-blue);
+}
+
+.info_user p {
+    margin-top: auto;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 5rem;
+    font-size: 1rem;
+    color: var(--color-black);
+}
+
+.user_skill_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_skill_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user_skill_text span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-blue);
+}
+
+.user_skill_icon {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.user_skill_icon i {
+    color: var(--color-black);
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+/* Cores para cada ícone das skills */
+.user_skill_icon .fa-github:hover {
+    color: #cb6ce6;
+}
+
+.user_skill_icon .fa-python:hover {
+    color: #f7df1e;
+}
+
+.user_skill_icon .fa-file-excel:hover {
+    color: #03723b;
+}
+
+.user_skill_icon .fa-html5:hover {
+    color: #e34f26;
+}
+
+.user_skill_icon .fa-css3-alt:hover {
+    color: #1572b6;
+}
+
+.user_skill_icon .fa-drafting-compass:hover {
+    color: #a6a6a6;
+}
+
+/* WIDGET 2 */
+.center {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.servicos {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_servicos {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.text_servicos h1 {
+    font-size: var(--font-title-mobile);
+    color: var(--color-black);
+}
+
+.text_servicos span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-gray);
+}
+
+.servicos_box {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.item_servico {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.item_servico i {
+    font-size: 3rem;
+    color: var(--color-blue);
+}
+
+.item_servico span {
+    font-size: 1.2rem;
+    color: var(--color-black);
+}
+
+/* WIDGET 3 */
+.bottom {
+    min-width: 350px;
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.contato {
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-blue);
+    padding: 1rem;
+}
+
+.content_contato {
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.text_contato h1 {
+    font-size: var(--font-title-mobile);
+    color: var(--color-white);
+}
+
+.lista_contato {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.lista_contato p {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.redes_sociais {
+    background-color: transparent;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0!important;
+    gap: 1rem;
+}
+
+.box_social {
+    background-color: var(--color-blue);
+    height: 25vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box_social i {
+    font-size: 3.5rem;
+    color: var(--color-white);
+}
