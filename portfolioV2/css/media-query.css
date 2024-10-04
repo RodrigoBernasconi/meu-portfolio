@@ -1,0 +1,125 @@
+/* Typical Device Breakpoints 
+Smaller smartphones: 0-480px
+Tablets & larger smartphones: 481-768px
+Laptops, and small desktop: 769-1279
+Larger desktops & monitors: 1280+
+*/
+
+@media screen and (max-width: 480px) {
+    .user-img {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Parte superior Habilidades e Usuário */
+    .skills-user {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .user-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+        min-height: 438px;
+        height: auto;
+    }
+
+    .user-img img {
+        border-radius: 10px;
+        width: 200px;
+        height: auto;
+    }
+
+    .user-txt {
+        flex: 1;
+        text-align: center;
+    }
+
+    .user-txt h1 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .user-txt span {
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .user-txt p {
+        margin-top: 20px;
+        text-align: justify;
+        flex-basis: 100%;
+    }
+
+    .card {
+        width: 232px;
+        height: 438px;
+    }
+
+    .card ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        min-height: 400px;
+        height: auto;
+    }
+
+    .skill-container ul li i {
+        font-size: 2.5rem;
+    }
+
+    /* Parte do meio Projetos */
+    .projects {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .project-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 1050px;
+        gap: 1rem;
+    }
+
+    .proj-1-desc {
+        border: 1px solid var(--color-black);
+        border-radius: 10px;
+    }
+
+    .proj-1-img {
+        border: 1px solid var(--color-black);
+        border-radius: 10px;
+    }
+
+    /* Parte inferior Redes e Contato */
+    .socials-contact {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .social-card {
+        width: 500px;
+    }
+
+    .contact-card {
+        width: 500px;
+        min-height: 135px;
+        height: auto;
+    }
+}
