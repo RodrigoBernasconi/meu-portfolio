@@ -1,0 +1,1 @@
+Compondo os demais itens, a análise de dados serviu para fazer consolidar o conhecimento e estabelecer relação entre os dados obtidos e os resultados gerados, dentre as experiências adquiridas gostaria de citar algumas como análise de regressão, manipulação de dados em grande escala, manipulação de múltiplos dados para predição de resultados.

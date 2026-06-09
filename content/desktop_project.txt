@@ -1,0 +1,1 @@
+Minha experiência em desenvolvimento na programação foi se desenvolvendo conforme demandas da atual empresa na qual trabalho, iniciando com projetos básicos sem uma interface de usuário, somente o terminal e posteriormente melhorando para aplicações aonde haviam interfaces gráficas responsivas, manipulação de arquivos e comunicação multithreads com dispostivos externos. 
