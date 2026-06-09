@@ -1,1 +1,3 @@
-Compondo os demais itens, a análise de dados serviu para fazer consolidar o conhecimento e estabelecer relação entre os dados obtidos e os resultados gerados, dentre as experiências adquiridas gostaria de citar algumas como análise de regressão, manipulação de dados em grande escala, manipulação de múltiplos dados para predição de resultados.
+A análise de dados desempenhou um papel importante na consolidação do meu raciocínio analítico, permitindo transformar informações coletadas em conhecimento útil para tomada de decisão e geração de resultados.
+
+Durante essa experiência, trabalhei com manipulação e tratamento de grandes volumes de dados, análise estatística, regressão linear, correlação entre variáveis e construção de modelos para predição de resultados. Essas atividades contribuíram para o desenvolvimento de uma visão mais crítica e orientada por dados na resolução de problemas.
